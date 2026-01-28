@@ -20,7 +20,7 @@
         body { font-family: 'Roboto', sans-serif; background: var(--bg); color: var(--text); line-height: 1.5; }
        
         .header-content { max-width: 1200000px; margin: 0 auto; text-align: center; }
-        .logo { max-height: 80px; width: auto; display: block; margin: 0 auto; }
+        .logo { max-height: 380px; width: auto; display: block; margin: 0 auto; }
         .wizard { max-width: 1000px; margin: 40px auto; padding: 0 20px; }
         .steps { display: flex; justify-content: space-between; margin-bottom: 30px; gap: 10px; }
         .step { flex: 1; text-align: center; padding: 15px; background: white; border-radius: 12px; box-shadow: var(--shadow); cursor: pointer; transition: all 0.3s; font-weight: 600; }
