@@ -18,8 +18,8 @@
         }
         * { margin:0; padding:0; box-sizing:border-box; }
         body { font-family: 'Roboto', sans-serif; background: var(--bg); color: var(--text); line-height: 1.5; }
-        header { background: var(--light-yellow); box-shadow: var(--shadow); padding: 15px 0; position: sticky; top: 0; z-index: 10; }
-        .header-content { max-width: 1200px; margin: 0 auto; text-align: center; }
+       
+        .header-content { max-width: 1200000px; margin: 0 auto; text-align: center; }
         .logo { max-height: 80px; width: auto; display: block; margin: 0 auto; }
         .wizard { max-width: 1000px; margin: 40px auto; padding: 0 20px; }
         .steps { display: flex; justify-content: space-between; margin-bottom: 30px; gap: 10px; }
@@ -132,9 +132,9 @@
         <div id="step1">
             <h2>1. Выберите модель часов</h2>
             <div class="option-container">
-                <button class="option-btn active" onclick="selectModel('clock5pro', 'https://img.freepik.com/free-psd/smartwatch-mockup_1314-117.jpg', this)">Clock - 5 Pro</button>
+                <button class="option-btn active" onclick="selectModel('clock5pro', 'сюда фото часов.jpg', this)">Clock - 5 Pro</button>
                 <button class="option-btn" onclick="selectModel('clock5', 'clock-5.jpg', this)">Clock - 5</button>
-                <button class="option-btn" onclick="selectModel('clock4p', 'clock-4(P).jpg', this)">Clock - 4(P)</button>
+                <button class="option-btn" onclick="selectModel('clock4p', 'clock-4(P).png', this)">Clock - 4(P)</button>
             </div>
             <div class="nav-buttons">
                 <div></div>
