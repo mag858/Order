@@ -109,7 +109,7 @@
 <body>
 <header>
     <div class="header-content">
-        <img src="https://via.placeholder.com/320x100/000000/FFFFFF?text=ТВОЙ+ЛОГОТИП" alt="Логотип" class="logo">
+        <img src="logo_2.jpeg" alt="Логотип" class="logo">
         <!-- Замени src на свой логотип -->
     </div>
 </header>
@@ -133,8 +133,8 @@
             <h2>1. Выберите модель часов</h2>
             <div class="option-container">
                 <button class="option-btn active" onclick="selectModel('clock5pro', 'https://img.freepik.com/free-psd/smartwatch-mockup_1314-117.jpg', this)">Clock - 5 Pro</button>
-                <button class="option-btn" onclick="selectModel('clock5', 'https://img.freepik.com/free-psd/smartwatch-mockup-front-view_1314-118.jpg', this)">Clock - 5</button>
-                <button class="option-btn" onclick="selectModel('clock4p', 'https://img.freepik.com/free-psd/smartwatch-mockup_1314-119.jpg', this)">Clock - 4(P)</button>
+                <button class="option-btn" onclick="selectModel('clock5', 'clock-5.jpg', this)">Clock - 5</button>
+                <button class="option-btn" onclick="selectModel('clock4p', 'clock-4(P).jpg', this)">Clock - 4(P)</button>
             </div>
             <div class="nav-buttons">
                 <div></div>
